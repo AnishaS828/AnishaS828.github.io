@@ -1,0 +1,137 @@
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+}
+
+body {
+ /*background-color: lightcyan; */
+ background-color: #fcfafa; 
+ /* background-color: #FFC6CE; */
+ /*background-color: #b0c4b1;*/
+}
+
+/* STYLE TEXT */
+/* Website title styling*/
+h1 {
+  color: navy;
+  text-align: center;
+  padding: 0.5em;
+  font-size: 3em;
+  text-decoration: underline;
+}
+/*Regular header styling*/
+h2 {
+  /*color: #0f8a1b; */
+  color: navy;
+  text-align: center;
+  font-size: 1.7em;
+  padding: 0.4em;
+  text-decoration: underline;
+  font-family: 'Laila', sans-serif;
+}
+/*Subheading styling*/
+h4 {
+  /*color: #fbaf00; */
+  /*color: #46237a; */
+  color: #7f2ccb;
+  text-align: center;
+  font-size: 1.5em;
+  font-family: 'Laila', sans-serif;
+}
+/*Main text styling*/
+p {
+ /* color: #247ba0; */
+  color: #34252f; 
+  text-align: center;
+  margin: 30px;
+  padding: 1em;
+  font-size: 1.2em;
+  font-weight: normal;
+  font-family: 'Merriweather', serif;
+}
+/*Positioning and sizing of images*/
+.image {
+  /*width: 20%;*/
+  /*height: 10%;*/
+  width: 30%;
+  height: 20%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*Styling of the top picture on the homepage in particular*/
+#beeHome {
+  margin-bottom: 3em;
+}
+
+/* Nav Bar */
+ul {
+  list-style-type: none;
+  background-color: #eb8258;
+  overflow: hidden; 
+  padding: 1em;
+  text-align: center;
+}
+/*Keeps each part of the nav bar from stacking on top of each other*/
+li {
+  display: inline;
+}
+/*Controls each element of the list used to put sections on the nav bar*/
+li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.3em;
+  padding: 1em;
+}
+/*Color changes when the nav bar elements are hovered above by the mouse*/
+li a:hover {
+  background-color: #efbc9b;
+}
+/*Styling for the link to the petition*/
+#link {
+  color: blue;
+  text-decoration: underline;
+  background-color: #fcfafa;
+  font-size: 1em;
+  padding: 0px;
+}
+/*Styling for the background of the fact generator page - importance of bees*/
+#factGenerator {
+  background-color: #FFC6CE;
+  text-align: center;
+}
+/*styling for the fact text*/
+#fact {
+  color: #496a81;
+  font-weight: bold;
+  padding-bottom: 8em;
+}
+/*Styling for the instructions/text that tells the user what the factGenerator does*/
+#instructions {
+  font-size: 1em;
+  padding-top: 5em;
+}
+/*Not used - attributions are in the README now*/
+#factAttribution {
+  font-size: 0.9em;
+}
+/*Styling for the button on the factGenerator*/
+#factButton {
+background-color: #FFAF80;
+color: #fcfafa;
+font-family: "Laila", sans-serif;
+padding: 0.7em;
+}
+/*Changes the color of the button and text when hovered above*/
+#factButton:hover {
+  background-color: #FBCEB1;
+  color: #58427c;
+}
+/* STYLE IMAGES */
+
+/* STYLE NAV BAR */
+
+/* STYLE BUTTONS */
+
+/* ADD MORE! */
